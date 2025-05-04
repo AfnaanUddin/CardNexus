@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/include",  // Explicitly include the header folder
+                "${workspaceFolder}/**"       // Include all subdirectories as a fallback
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang", // Ensure this points to the correct clang compiler
+            "cStandard": "c17",               // Matches your C standard
+            "cppStandard": "c++17",           // Upgrade to match modern C++
+            "intelliSenseMode": "linux-clang-x64" // Adjusted for clang on x64 architecture
+        }
+    ],
+    "version": 4
+}
